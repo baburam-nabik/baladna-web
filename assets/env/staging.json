@@ -2,5 +2,6 @@
   "FLAVOR": "staging",
   "HOST": "https://url-ws-server.onrender.com",
   "BASE_URL": "https://url-ws-server.onrender.com/api/v1/",
-  "IMAGE_BASE_URL": "https://staging.com/storagePath/"
+  "IMAGE_BASE_URL": "https://staging.com/storagePath/",
+  "APP_ENCRYPTION_KEY": "1234567890123456"
 }
