@@ -1,0 +1,43 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none">
+    <!-- Background Leaves -->
+    <path d="M60 220C45 220 35 240 50 260C65 240 55 220 60 220Z" fill="#A8D5BA"/>
+    <path d="M340 180C325 180 315 200 330 220C345 200 335 180 340 180Z" fill="#A8D5BA"/>
+    <!-- Clipboard -->
+    <rect x="150" y="40" width="130" height="180" rx="10" fill="#2C5F78"/>
+    <rect x="160" y="60" width="110" height="150" rx="4" fill="white"/>
+    <circle cx="215" cy="50" r="8" fill="#2C5F78"/>
+    <text x="190" y="85" fill="#2C5F78" font-family="Arial" font-weight="bold" font-size="14">LOAN</text>
+    <line x1="170" y1="105" x2="260" y2="105" stroke="#E0E0E0" stroke-width="3"/>
+    <line x1="170" y1="120" x2="260" y2="120" stroke="#E0E0E0" stroke-width="3"/>
+    <line x1="170" y1="135" x2="260" y2="135" stroke="#E0E0E0" stroke-width="3"/>
+
+    <!-- Calculator -->
+    <rect x="95" y="130" width="90" height="125" rx="12" fill="#2C5F78"/>
+    <rect x="105" y="140" width="70" height="30" rx="4" fill="#D9EAF0"/>
+    <!-- Buttons -->
+    <rect x="105" y="180" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="123" y="180" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="141" y="180" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="159" y="180" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="105" y="196" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="123" y="196" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="141" y="196" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="159" y="196" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="105" y="212" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="123" y="212" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="141" y="212" width="15" height="12" rx="2" fill="#D9EAF0"/>
+    <rect x="159" y="212" width="15" height="12" rx="2" fill="#D9EAF0"/>
+
+    <!-- Money Bag -->
+    <path d="M320 255C350 255 365 230 365 200C365 170 340 160 320 160C300 160 275 170 275 200C275 230 290 255 320 255Z" fill="#3E8E7E"/>
+    <path d="M305 160C300 150 310 140 320 145C330 140 340 150 335 160L305 160Z" fill="#3E8E7E"/>
+    <text x="308" y="215" fill="white" font-family="Arial" font-weight="bold" font-size="36">₹</text>
+
+    <!-- Gold Coins -->
+    <rect x="215" y="220" width="35" height="35" rx="10" fill="#FFC107"/>
+    <ellipse cx="232.5" cy="220" rx="17.5" ry="5" fill="#FFD54F"/>
+    <rect x="245" y="235" width="30" height="20" rx="8" fill="#FFC107"/>
+    <ellipse cx="260" cy="235" rx="15" ry="4" fill="#FFD54F"/>
+    <circle cx="190" cy="245" r="10" fill="#FFA000"/>
+    <circle cx="190" cy="245" r="7" fill="#FFC107"/>
+</svg>
