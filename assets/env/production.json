@@ -2,6 +2,6 @@
   "FLAVOR": "production",
   "HOST": "https://payment.kingshuk.co.in",
   "BASE_URL": "https://payment.kingshuk.co.in/api/v1/",
-  "IMAGE_BASE_URL": "http://32.194.160.5/storagePath/",
+  "IMAGE_BASE_URL": "https://payment.kingshuk.co.in/api/v1/storagePath/",
   "APP_ENCRYPTION_KEY": "1234567890123456"
 }
