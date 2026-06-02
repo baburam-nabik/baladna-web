@@ -1,11 +1,11 @@
 {
-    "name": "baladna",
-    "short_name": "baladna",
+    "name": "ScoreLoan",
+    "short_name": "ScoreLoan",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "ScoreLoan is a digital platform that helps users explore loan options through multiple trusted lending partners.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
