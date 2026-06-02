@@ -1,11 +1,11 @@
 {
-    "name": "ScoreLoan",
-    "short_name": "ScoreLoan",
+    "name": "ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace",
+    "short_name": "ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "ScoreLoan is a digital platform that helps users explore loan options through multiple trusted lending partners.",
+    "description": "Get instant loan approval in just 2 minutes! ScoreLoan is AI based credit marketplace which offers instant loan, personal loan up to 5 Lakh",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
