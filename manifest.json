@@ -1,6 +1,6 @@
 {
-    "name": "ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace",
-    "short_name": "ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace",
+    "name": "ScoreLoan",
+    "short_name": "ScoreLoan",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
