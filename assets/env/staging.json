@@ -1,13 +1,7 @@
 {
   "FLAVOR": "staging",
-<<<<<<< HEAD
-  "HOST": "https://url-ws-server.onrender.com",
-  "BASE_URL": "https://url-ws-server.onrender.com/api/v1/",
-  "IMAGE_BASE_URL": "https://staging.com/storagePath/",
-=======
   "HOST": "https://staging.app.scoreloan.in",
   "BASE_URL": "https://staging.app.scoreloan.in/api/v1/",
   "IMAGE_BASE_URL": "https://staging.app.scoreloan.in/storagePath/",
->>>>>>> ba790b6 (initial Commit)
   "APP_ENCRYPTION_KEY": "1234567890123456"
 }

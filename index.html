@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html>
-=======
 <html lang="en">
->>>>>>> ba790b6 (initial Commit)
 <head>
     <base href="/">
 
@@ -17,21 +13,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title"
           content="ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace">
-<<<<<<< HEAD
-    <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.ico"/>
-
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-
-    <title>ScoreLoan</title>
-    <link rel="manifest" href="manifest.json">
-
-</head>
-<body>
-=======
     <link rel="apple-touch-icon" href="icons/icon-192.png">
 
     <!-- Favicon -->
@@ -98,7 +79,6 @@
     });
 </script>
 
->>>>>>> ba790b6 (initial Commit)
 <!-- Capture PWA install prompt event -->
 <script>
     let deferredPrompt;
@@ -111,27 +91,16 @@
        deferredPrompt.prompt();
     }
 
-<<<<<<< HEAD
-    // Listen for app install event
-=======
->>>>>>> ba790b6 (initial Commit)
     window.addEventListener('appinstalled', () => {
       deferredPrompt = null;
       appInstalled();
     });
 
-<<<<<<< HEAD
-    // Track how PWA was launched (either from browser or as PWA)
-    function getLaunchMode() {
-      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
-      if(deferredPrompt) hasPrompt();
-=======
     function getLaunchMode() {
       const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
 
       if(deferredPrompt) hasPrompt();
 
->>>>>>> ba790b6 (initial Commit)
       if (document.referrer.startsWith('android-app://')) {
         appLaunchedAsTWA();
       } else if (navigator.standalone || isStandalone) {
@@ -141,9 +110,6 @@
       }
     }
 </script>
-<<<<<<< HEAD
-<script src="flutter_bootstrap.js" async></script>
-=======
 
 <!-- Remove loader when Flutter paints first frame -->
 <script>
@@ -183,6 +149,5 @@
 
 <script src="flutter_bootstrap.js" async></script>
 
->>>>>>> ba790b6 (initial Commit)
 </body>
 </html>
