@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
+=======
+<html lang="en">
+>>>>>>> ba790b6 (initial Commit)
 <head>
     <base href="/">
 
@@ -13,6 +17,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title"
           content="ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace">
+<<<<<<< HEAD
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
     <!-- Favicon -->
@@ -26,6 +31,74 @@
 
 </head>
 <body>
+=======
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+
+    <title>ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace</title>
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #ffffff;
+        }
+
+        #loading {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #ffffff;
+            z-index: 99999;
+        }
+
+        #lottie-container {
+            width: 180px;
+            height: 180px;
+        }
+
+        #loading-text {
+            margin-top: 8px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #666666;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Loading Screen -->
+<div id="loading">
+    <div id="lottie-container"></div>
+</div>
+
+<!-- Lottie Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+<script>
+    lottie.loadAnimation({
+        container: document.getElementById('lottie-container'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+
+        path: 'assets/assets/lottie/logo.json'
+    });
+</script>
+
+>>>>>>> ba790b6 (initial Commit)
 <!-- Capture PWA install prompt event -->
 <script>
     let deferredPrompt;
@@ -38,16 +111,27 @@
        deferredPrompt.prompt();
     }
 
+<<<<<<< HEAD
     // Listen for app install event
+=======
+>>>>>>> ba790b6 (initial Commit)
     window.addEventListener('appinstalled', () => {
       deferredPrompt = null;
       appInstalled();
     });
 
+<<<<<<< HEAD
     // Track how PWA was launched (either from browser or as PWA)
     function getLaunchMode() {
       const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
       if(deferredPrompt) hasPrompt();
+=======
+    function getLaunchMode() {
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+
+      if(deferredPrompt) hasPrompt();
+
+>>>>>>> ba790b6 (initial Commit)
       if (document.referrer.startsWith('android-app://')) {
         appLaunchedAsTWA();
       } else if (navigator.standalone || isStandalone) {
@@ -57,6 +141,48 @@
       }
     }
 </script>
+<<<<<<< HEAD
 <script src="flutter_bootstrap.js" async></script>
+=======
+
+<!-- Remove loader when Flutter paints first frame -->
+<script>
+    window.addEventListener('flutter-first-frame', function () {
+        const loader = document.getElementById('loading');
+        if (loader) {
+            loader.remove();
+        }
+    });
+
+    async function registerServiceWorker(retryCount = 3, delay = 2000) {
+        if ('serviceWorker' in navigator) {
+            for (let attempt = 1; attempt <= retryCount; attempt++) {
+                try {
+                    const registration = await navigator.serviceWorker.register('/firebase-messaging-sw.js');
+                    console.log(`✅ Service Worker registered (Attempt ${attempt}):`, registration);
+                    await navigator.serviceWorker.ready;
+                    console.log('✅ Service Worker is ready');
+                    return;
+                } catch (error) {
+                    console.error(`❌ Service Worker registration failed (Attempt ${attempt}):`, error);
+                    if (attempt < retryCount) {
+                        console.log(`🔄 Retrying in ${delay}ms...`);
+                        await new Promise(res => setTimeout(res, delay));
+                    }
+                }
+            }
+            console.error('🚨 Service Worker registration failed after all attempts.');
+        }
+    }
+
+    window.addEventListener('load', async function () {
+        await registerServiceWorker();
+        console.log("🚀 Starting Flutter...");
+    });
+</script>
+
+<script src="flutter_bootstrap.js" async></script>
+
+>>>>>>> ba790b6 (initial Commit)
 </body>
 </html>

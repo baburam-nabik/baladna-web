@@ -1,7 +1,13 @@
 {
   "FLAVOR": "production",
+<<<<<<< HEAD
   "HOST": "https://payment.kingshuk.co.in",
   "BASE_URL": "https://payment.kingshuk.co.in/api/v1/",
   "IMAGE_BASE_URL": "https://payment.kingshuk.co.in/api/v1/storagePath/",
+=======
+  "HOST": "https://api.scoreloan.in",
+  "BASE_URL": "https://api.scoreloan.in/api/v1/",
+  "IMAGE_BASE_URL": "api.scoreloan.in/storagePath/",
+>>>>>>> ba790b6 (initial Commit)
   "APP_ENCRYPTION_KEY": "1234567890123456"
 }
