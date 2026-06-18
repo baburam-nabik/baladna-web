@@ -1,7 +1,7 @@
 {
   "FLAVOR": "development",
-  "HOST": "https://dev.api.scoreloan.in/",
-  "BASE_URL": "https://dev.api.scoreloan.in/api/v1/",
+  "HOST": "https://aafa-27-107-129-9.ngrok-free.app/",
+  "BASE_URL": "https://aafa-27-107-129-9.ngrok-free.app/api/v1/",
   "IMAGE_BASE_URL": "https://dev.api.scoreloan.in/api/v1/storagePath/",
   "APP_ENCRYPTION_KEY": "1234567890123456"
 }

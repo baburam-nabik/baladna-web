@@ -1,23 +1,27 @@
 {
-    "name": "ScoreLoan",
+    "id": "/",
+    "name": "ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace",
     "short_name": "ScoreLoan",
-    "start_url": ".",
+    "description": "Get instant loan approval in just 2 minutes! ScoreLoan is AI based credit marketplace which offers instant loan and personal loans up to 5 lakh.",
+    "start_url": "/",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Get instant loan approval in just 2 minutes! ScoreLoan is AI based credit marketplace which offers instant loan, personal loan up to 5 Lakh",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icons/Icon-512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icons/Icon-maskable-192.png",
@@ -31,5 +35,50 @@
             "type": "image/png",
             "purpose": "maskable"
         }
+    ],
+    "screenshots": [
+        {
+            "src": "screenshots/1.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/2.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/3.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/4.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/5.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/6.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/7.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+
     ]
 }
