@@ -44,9 +44,20 @@
             z-index: 99999;
         }
 
-        #lottie-container {
+       #lottie-container {
             width: 180px;
             height: 180px;
+        }
+
+        @media (max-width: 768px) {
+            #lottie-container {
+                width: 55vw;
+                height: 55vw;
+                max-width: 260px;
+                max-height: 260px;
+                min-width: 220px;
+                min-height: 220px;
+            }
         }
 
         #loading-text {
@@ -59,6 +70,16 @@
 </head>
 
 <body>
+
+<script>
+    window.detectDebugger = function () {
+        const start = performance.now();
+
+        debugger;
+
+        return performance.now() - start > 100;
+    };
+</script>
 
 <!-- Loading Screen -->
 <div id="loading">
@@ -74,7 +95,6 @@
         renderer: 'svg',
         loop: true,
         autoplay: true,
-
         path: 'assets/assets/lottie/logo.json'
     });
 </script>
