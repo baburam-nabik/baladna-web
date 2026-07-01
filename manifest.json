@@ -1,7 +1,7 @@
 {
     "id": "/",
-    "name": "ScoreLoan – Instant Loan, Personal Loan & Credit Marketplace",
-    "short_name": "ScoreLoan",
+    "name": "Dev ScoreLoan",
+    "short_name": "Dev ScoreLoan",
     "description": "Get instant loan approval in just 2 minutes! ScoreLoan is AI based credit marketplace which offers instant loan and personal loans up to 5 lakh.",
     "start_url": "/",
     "scope": "/",
@@ -37,48 +37,48 @@
         }
     ],
     "screenshots": [
-        {
-            "src": "screenshots/1.png",
-            "sizes": "1242x2688",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "screenshots/2.png",
-            "sizes": "1242x2688",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "screenshots/3.png",
-            "sizes": "1242x2688",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "screenshots/4.png",
-            "sizes": "1242x2688",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "screenshots/5.png",
-            "sizes": "1242x2688",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "screenshots/6.png",
-            "sizes": "1242x2688",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "screenshots/7.png",
-            "sizes": "1242x2688",
-            "type": "image/png",
-            "form_factor": "wide"
-        }
+            {
+                "src": "screenshots/1.png",
+                "sizes": "1242x2688",
+                "type": "image/png",
+                "form_factor": "wide"
+            },
+            {
+                "src": "screenshots/2.png",
+                "sizes": "1242x2688",
+                "type": "image/png",
+                "form_factor": "wide"
+            },
+            {
+                "src": "screenshots/3.png",
+                "sizes": "1242x2688",
+                "type": "image/png",
+                "form_factor": "wide"
+            },
+            {
+                "src": "screenshots/4.png",
+                "sizes": "1242x2688",
+                "type": "image/png",
+                "form_factor": "wide"
+            },
+            {
+                "src": "screenshots/5.png",
+                "sizes": "1242x2688",
+                "type": "image/png",
+                "form_factor": "wide"
+            },
+            {
+                "src": "screenshots/6.png",
+                "sizes": "1242x2688",
+                "type": "image/png",
+                "form_factor": "wide"
+            },
+            {
+                "src": "screenshots/7.png",
+                "sizes": "1242x2688",
+                "type": "image/png",
+                "form_factor": "wide"
+            }
 
-    ]
+        ]
 }
